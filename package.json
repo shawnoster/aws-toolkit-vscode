@@ -684,8 +684,7 @@
                 },
                 {
                     "id": "aws.cdk.explorer",
-                    "name": "%AWS.cdk.explorerTitle%",
-                    "when": "!isCloud9"
+                    "name": "%AWS.cdk.explorerTitle%"
                 }
             ]
         },
@@ -922,10 +921,6 @@
                 {
                     "command": "aws.s3.uploadFileToParent",
                     "when": "false"
-                },
-                {
-                    "command": "aws.cdk.help",
-                    "when": "!isCloud9"
                 },
                 {
                     "command": "aws.apprunner.startDeployment",
